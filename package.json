@@ -3,12 +3,16 @@
   "version": "0.0.1",
   "description": "A lightweight package that parses your code and creates a nice documenation flowchart for all your processes",
   "main": "index.js",
+  "bin": {
+    "coflow": "./index.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "max@bringbeyond.com",
   "license": "ISC",
   "dependencies": {
+    "chalk": "^5.2.0",
     "commander": "^9.4.1"
   }
 }
